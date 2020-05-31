@@ -1,0 +1,723 @@
+/*Global css*/
+body{
+  font-family: 'Lato', sans-serif;
+
+    /*font-family: 'Yeseva One', cursive;*/
+     }
+h1, h2, h3, h4, h5 ,h6 {
+
+  font-family: 'Yeseva One', cursive;
+}
+
+/*header section css start*/
+  header {
+    background: url(../img/background1.png);
+    height: 100%;
+
+    background-position: center;
+
+    background-size: cover;
+  }
+
+.navbar{
+     padding: 20px 0;
+   
+  }
+  .navbar .nav-item{
+    padding: 14px;
+
+  }
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+ .navbar .nav-item .nav-link:hover{
+
+  color: #e84545;
+}
+.hero-area {
+
+  text-align: center;
+
+   margin: 45px 0;
+
+} 
+.hero-area .divider-img1{
+
+     margin: 40px;
+}
+.hero-area .divider-img1 img{
+
+   }
+  .hero-area h2{
+  
+  color: #fff;
+
+  font-size: 65px;
+
+  padding: 0px 14%;
+
+}
+.hero-area .btn-cta{
+
+  padding: 8px 30px;
+  margin: 15px;
+  background-color: hsla(0, 0%, 80%, 0.4);
+  border:1px solid #fff;
+  color: #fff;
+}
+.hero-area .active.btn-cta{
+      background-color: rgba(0, 0, 0, 0.3);
+}
+
+.hero-area .btn-cta:hover{
+      background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*header section css end*/
+
+
+/*food section css start*/
+.rigth-food{
+   background: url(../img/background2.png);
+   height: 100%;
+   background-position: center;
+   background-size: cover;
+}
+.rigth-food .food-box{
+
+  padding: 80px 0;
+  text-align: center;
+}
+.rigth-food .food-box h2{
+
+  color: #cc9900;
+  margin: 20px;
+}
+
+.rigth-food .food-box img{
+
+  margin-bottom: 20px;
+}
+.rigth-food .food-box p{
+
+  margin-bottom: 40px;
+}
+.rigth-food .food-box .cooking{
+
+  padding-left: 15%;
+}
+.rigth-food .dish{
+  padding: 80px 0;
+  /*overflow: hidden;*/
+}
+.rigth-food .dish img{
+  /*transition: all 0.4s;*/
+}
+.rigth-food .dish:hover img{
+  /*transform: scale(1.2);*/
+}
+  /*food section css end*/
+
+ /* Fine ingredients section css start*/
+.Fine-ingredients{
+
+    background: url(../img/background3.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+     /*overflow: hidden;*/
+  }
+  .Fine-ingredients .black-div{
+    background: #00000087;;
+    width: 50%;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    color: #fff;
+    padding: 6%;
+    /*transition: all 0.4s;*/
+}
+  .Fine-ingredients .black-div:hover{
+     /*transform: scale(1.2);*/
+}
+   .Fine-ingredients .black-div h3{
+
+    margin-bottom: 20px;
+}
+    .Fine-ingredients .black-div .divider-img2{
+
+    margin-bottom: 20px;
+}
+    .Fine-ingredients .black-div p{
+
+    margin-bottom: 30px;
+}
+    .Fine-ingredients .black-div .masala-img{
+      
+}
+/* Fine ingredients section css end*/
+
+
+/* menu section css start*/
+.menu{
+  background: url(../img/background4.png);
+  background-position: center;
+  background-size: cover;
+}
+.menu .main-manu{
+
+  margin: 12%;
+}
+.menu .main-manu .img-titel{
+  
+  text-align: center;
+  padding: 30px 0;
+  color: #c90;
+}
+.menu .main-manu.img-titel h3{
+
+}
+.menu .main-manu .img-titel img{
+
+ 
+}
+.menu .main-manu .name-price{
+
+  margin-bottom: 35px;
+}
+.menu .main-manu .name-price h4{
+
+  color: #c90;
+  border-bottom: 1px solid #c90;
+  padding-bottom: 5px;
+}
+.menu .main-manu .name-price h4 span{
+
+  color: #cc9900;
+  font-family: 'Yeseva One', cursive;
+  float: right;
+}
+.menu .main-manu .name-price p{
+
+}
+.menu .main-manu .name-price .special-div {
+  color: #fff;
+  background: #c90;
+  text-align: center;
+  margin-left: 75%;
+}
+.menu .main-manu .name-price .special-div h5{
+  padding: 2px;
+  margin-bottom: 0;
+}
+.menu .main-manu .name-price .special-item{
+  
+  border: 1px solid #cc9900;
+  padding: 15px;
+}
+.menu .main-manu .name-price .special-item h4{
+
+}
+.menu .main-manu .name-price .special-item h4 span{
+
+}
+.menu .main-manu .name-price .special-item p{
+  
+}
+/* menu section css end*/
+
+/* review section css start*/
+.review{
+
+  background: url(../img/background5.png);
+  background-position: center;
+  background-size: cover;
+}
+.review .review-area{
+
+  background: #000000a1;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  color: #fff;
+  padding: 8%;
+}
+.review .review-area h3{
+
+  margin-bottom: 10px;
+}
+.review .review-area img{
+
+  margin-bottom: 10px;
+}
+.review .review-area p{
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+/*review section css end*/
+
+/* booking section css start*/
+.booking{
+background: url(../img/background2.png);
+  background-position: center;
+  background-size: cover;
+padding: 80px 0;
+}
+.booking .item-pic{
+
+  /*! padding: 80px 0; */
+}
+.booking .item-pic img{
+
+}
+.booking .booking-area{
+
+  margin-left: 10%;
+  text-align: center;
+}
+.booking .booking-area h3{
+
+  color: #cc9900;
+}
+.booking .booking-area img{
+
+}
+.booking .booking-area p{
+
+  margin-top: 15px;
+}
+.booking .booking-area form{
+  text-align: left;
+  margin-top: 40px;
+}
+.booking .booking-area form label h6{
+
+  color: #c90;
+  margin-bottom: 0;
+}
+.booking .booking-area form .form-control{
+
+  margin-bottom: 25px;
+}
+.booking .booking-area form .btn-cta{
+
+  text-align: center;
+  margin-top: 20px;
+}
+.booking .booking-area form .btn-cta a{
+
+  text-decoration: none;
+  border: 1px solid #cc9900;
+  padding: 8px 35px;
+  background: #cc9900;
+  color: #fff;
+  border-radius: 4px;
+}
+.booking .booking-area form .btn-cta a:hover{
+
+  background: #b68806;
+  transition: 0.2s linear;
+}
+/*booking section css end*/
+
+/*footer section css start*/
+footer{
+  
+  background: #191919;
+  padding: 80px 0;
+}
+
+footer .info{
+
+  color: #fff;
+  text-align: center;
+  margin: 15px;
+}
+footer .info h5{
+
+  margin-bottom: 20px;
+}
+footer .info img{
+
+  margin-bottom: 20px;
+}
+footer .info p{
+
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+
+footer .info .nav{
+  margin-top:35px;
+
+}
+footer .info .nav-item{
+
+}
+footer .info .nav-item .nav-link{
+
+  color: #fff;
+  padding: 10px;
+} 
+/*footer section css end*/
+
+
+/*responsive css start*/
+@media (min-width: 0px) and (max-width: 320px){
+.hero-area {
+    margin: 10px 0;
+}
+.hero-area h2 {
+    font-size: 27px;
+    
+}
+.hero-area .divider-img1 {
+    margin: 15px;
+}
+.rigth-food .dish {
+    padding: 40px 0;
+    margin-top: -60px;
+}
+.rigth-food .food-box {
+    padding: 40px 0;
+    
+}
+.Fine-ingredients .black-div {
+    width: 100%;
+    margin-left: 0;
+}
+.Fine-ingredients .black-div h3 {
+    margin-bottom: 12px;
+}
+.Fine-ingredients .black-div .divider-img2 {
+    margin-bottom: 12px;
+}
+.Fine-ingredients .black-div p {
+    margin-bottom: 12px;
+}
+
+.menu .main-manu {
+    margin: 6%;
+}
+.menu .main-manu .name-price h4 {
+    font-size: 18px;
+}
+.menu .main-manu .img-titel {
+    padding: 16px 0;
+    
+}
+.menu .main-manu .name-price {
+    margin-bottom: 30px;
+}
+.menu .main-manu .name-price .special-div {
+    margin-left: 60%;
+}
+.review .review-area {
+    
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 0;
+   
+}
+.review .review-area p {
+    
+    margin-bottom: 15px;
+}
+.booking .booking-area {
+    margin-left: 0;
+    margin-top: 45px;
+}
+.booking .booking-area p {
+    margin-top: 10px;
+}
+.booking {
+    padding: 42px 0;
+}
+.booking .booking-area form .btn-cta {
+    margin-top: 10px;
+}
+footer {
+    padding: 35px 0;
+}
+footer .info {
+    margin: 10px;
+}
+footer .info h5 {
+    margin-bottom: 15px;
+}
+footer .info .nav {
+    margin-top: 15px;
+}
+}
+
+@media (min-width: 321px) and (max-width: 575px){
+.hero-area {
+    margin: 10px 0;
+}
+.hero-area h2 {
+    font-size: 27px;
+    
+}
+.hero-area .divider-img1 {
+    margin: 15px;
+}
+.rigth-food .dish {
+    padding: 40px 0;
+    margin-top: -60px;
+}
+.rigth-food .food-box {
+    padding: 40px 0;
+    
+}
+.Fine-ingredients .black-div {
+    width: 100%;
+    margin-left: 0;
+}
+.Fine-ingredients .black-div h3 {
+    margin-bottom: 12px;
+}
+.Fine-ingredients .black-div .divider-img2 {
+    margin-bottom: 12px;
+}
+.Fine-ingredients .black-div p {
+    margin-bottom: 12px;
+}
+
+.menu .main-manu {
+    margin: 6%;
+}
+.menu .main-manu .name-price h4 {
+    font-size: 18px;
+}
+.menu .main-manu .img-titel {
+    padding: 16px 0;
+    
+}
+.menu .main-manu .name-price {
+    margin-bottom: 30px;
+}
+.menu .main-manu .name-price .special-div {
+    margin-left: 60%;
+}
+.review .review-area {
+    
+    width: 100%;
+    margin-left: 0;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    padding: 0;
+   
+}
+.review .review-area p {
+    
+    margin-bottom: 15px;
+}
+.booking .booking-area {
+    margin-left: 0;
+    margin-top: 45px;
+}
+.booking .booking-area p {
+    margin-top: 10px;
+}
+.booking {
+    padding: 42px 0;
+}
+.booking .booking-area form .btn-cta {
+    margin-top: 10px;
+}
+footer {
+    padding: 35px 0;
+}
+footer .info {
+    margin: 10px;
+}
+footer .info h5 {
+    margin-bottom: 15px;
+}
+footer .info .nav {
+    margin-top: 15px;
+}
+
+}
+@media (min-width: 576px) and (max-width: 767px){
+  /*header section*/
+  .navbar {
+    padding: 14px 0;
+}
+
+  /*hero area*/
+  .hero-area {
+    margin: 16px 0px;
+}
+  .hero-area h2 {
+    font-size: 30px;
+    padding: 0px 18%;
+}
+.hero-area .divider-img1 {
+    margin: 18px;
+}
+.hero-area .btn-cta {
+    padding: 8px 60px;
+    margin: 12px;
+}
+ /*food section*/
+.rigth-food .food-box {
+    padding: 30px 0;
+}
+.rigth-food .food-box p {
+    margin-bottom: 25px;
+}
+.rigth-food .dish {
+    padding: 30px 0;
+}
+.Fine-ingredients .black-div {
+    
+    width: 100%;
+    margin-left: 0;
+}
+/*menu section*/
+.menu {
+    padding: 30px 0;
+}
+.menu .main-manu {
+    margin: 6%;
+}
+.menu .main-manu .name-price h4 {
+    font-size: 18px;
+}
+.menu .main-manu .img-titel {
+    padding: 16px 0;
+    
+}
+.menu .main-manu .name-price {
+    margin-bottom: 30px;
+}
+.menu .main-manu .name-price .special-div {
+    margin-left: 60%;
+}
+
+/*review section*/
+.review .review-area {
+    width: 100%;
+    margin-left: 0;
+}
+/*booking section*/
+.booking {
+    padding: 50px 0;
+}
+.booking .booking-area {
+    margin-left: 0;
+    padding: 40px 0;
+}
+.booking .booking-area form .btn-cta a {
+    padding: 8px 65px;
+    
+}
+footer {
+    padding: 50px 0;
+}
+footer .info .nav {
+    margin-top: 20px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+/*header section*/
+.navbar {
+    padding: 10px 0;
+}
+/*hero-area section*/
+.hero-area {
+    margin: 25px 0;
+}
+.hero-area h2 {
+    font-size: 45px;
+    padding: 0px 15%;
+}
+.hero-area .divider-img1 {
+    margin: 15px;
+}
+.hero-area .btn-cta {
+    padding: 8px 35px;
+    margin: 20px;
+    
+}
+/*food section*/
+.rigth-food .dish {
+    padding: 175px 0;
+   
+}
+.rigth-food .food-box {
+    padding: 50px 0;
+    
+}
+
+.Fine-ingredients .black-div {
+    width: 65%;
+    margin-left: 35%;
+    
+}
+/*menu section*/
+.menu {
+    padding: 40px 0;
+}
+/*review section*/
+.review .review-area {
+    width: 100%;
+    margin-left: 0;
+    padding: 10%;
+}
+/*booking section*/
+.booking .item-pic {
+    text-align: center;
+}
+.booking .booking-area {
+    margin-left: 5%;
+    padding: 40px 0;
+}
+.booking {
+    padding: 60px 0;
+}
+.booking .booking-area form .btn-cta a {
+    padding: 8px 100px;
+    
+}
+/*footer section*/
+footer .info {
+    margin: 8px;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+ /*header section*/
+ .navbar {
+    padding: 15px 0;
+}
+
+ /*hero area*/
+ .hero-area {
+    
+    margin: 20px 0;
+}
+ .hero-area h2 {
+   font-size: 55px;
+    
+}
+.hero-area .divider-img1 {
+    margin: 25px;
+}
+/*review section*/
+.review .review-area {
+    width: 70%;
+    margin-left: 15%;
+}
+}
+@media (min-width: 1200px) {
+
+}
